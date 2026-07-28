@@ -42,7 +42,7 @@ const facultyList = [...faculty, ...faculty];
 export default function FacultySection() {
   return (
     <div className="relative w-full max-w-full overflow-x-hidden">
-    <section className="py-16 bg-base-100 overflow-hidden">
+    <section className="py-16 bg-white overflow-hidden ">
 
       <div className="mx-auto max-w-7xl px-6">
 
@@ -58,7 +58,7 @@ export default function FacultySection() {
 
           <Link
             href="/faculty"
-            className="btn btn-ghost shadow-none border-none hover:bg-white hover:text-primary "
+            className="btn btn-ghost text-black shadow-none border-none hover:bg-white hover:text-primary "
           >
             View All
             <ArrowRight size={18} />
@@ -87,11 +87,11 @@ export default function FacultySection() {
                 className="h-40 w-40 rounded-full object-cover"
               />
 
-              <h3 className="mt-5 text-lg font-semibold text-center">
+              <h3 className="mt-5 text-lg font-semibold text-black text-center">
                 {member.name}
               </h3>
 
-              <p className="text-sm text-base-content/60 text-center">
+              <p className="text-sm text-black/60 text-center">
                 {member.designation}
               </p>
 

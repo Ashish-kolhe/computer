@@ -58,8 +58,8 @@ export default function Updates() {
 
   return (
     <>
-    <div className="w-full max-w-full overflow-x-hidden">
-      <section className="py-12 bg-base-100 overflow-hidden">
+    <div className="w-full max-w-full overflow-x-hidden bg-white">
+      <section className="py-12 bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto px-6">
 
           <div className="mb-8">
@@ -70,21 +70,26 @@ export default function Updates() {
            
           </div>
 
-          <div className="flex gap-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory pb-3">
+          <div
+  className="
+    flex gap-6 overflow-x-auto scrollbar-hide snap-x snap-mandatory pb-3
+    lg:grid lg:grid-cols-2 lg:gap-8 lg:overflow-visible lg:snap-none
+  "
+>
 
             {updates.map((item) => (
               <div
                 key={item.id}
                 onClick={() => setSelectedUpdate(item)}
                 className="
-                  group
-                  cursor-pointer
-                  shrink-0
-                  snap-start
-                  w-full
-                  sm:w-[360px]
-                  lg:w-[390px]
-                "
+  group
+  cursor-pointer
+  shrink-0
+  snap-start
+  w-full
+  sm:w-[360px]
+  lg:w-full
+"
               >
                 <div className="overflow-hidden rounded-2xl">
 

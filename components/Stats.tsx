@@ -23,11 +23,11 @@ export default function Stats (){
       <GraduationCap className="h-5 w-5 text-primary" />
     </div>
 
-    <h3 className="text-2xl font-bold tracking-tight">
+    <h3 className="text-2xl text-black font-bold tracking-tight">
       1,500+
     </h3>
 
-    <p className="mt-1 text-xs text-base-content/60">
+    <p className="mt-1 text-xs text-black/60">
       Students
     </p>
   </div>
@@ -37,11 +37,11 @@ export default function Stats (){
       <Users className="h-5 w-5 text-primary" />
     </div>
 
-    <h3 className="text-2xl font-bold tracking-tight">
+    <h3 className="text-2xl font-bold text-black tracking-tight">
       70+
     </h3>
 
-    <p className="mt-1 text-xs text-base-content/60">
+    <p className="mt-1 text-xs text-black/60">
       Faculty Members
     </p>
   </div>
@@ -51,11 +51,11 @@ export default function Stats (){
       <FlaskConical className="h-5 w-5 text-primary" />
     </div>
 
-    <h3 className="text-2xl font-bold tracking-tight">
+    <h3 className="text-2xl font-bold text-black tracking-tight">
       12+
     </h3>
 
-    <p className="mt-1 text-xs text-base-content/60">
+    <p className="mt-1 text-xs text-black/60">
       Modern Labs
     </p>
   </div>
@@ -65,11 +65,11 @@ export default function Stats (){
       <BriefcaseBusiness className="h-5 w-5 text-primary" />
     </div>
 
-    <h3 className="text-2xl font-bold tracking-tight">
+    <h3 className="text-2xl font-bold text-black tracking-tight">
       100%
     </h3>
 
-    <p className="mt-1 text-xs text-base-content/60">
+    <p className="mt-1 text-xs text-black/60">
       Placement Assistance
     </p>
   </div>

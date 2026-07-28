@@ -21,7 +21,7 @@ export default function LifeAtATC() {
           Campus Experience
         </p>
 
-        <h2 className="font-heading mt-3 text-2xl font-bold">
+        <h2 className="font-heading mt-3 text-black text-2xl font-bold">
           Life @ ATC
         </h2>
 

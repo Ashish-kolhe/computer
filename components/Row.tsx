@@ -22,11 +22,11 @@ export default function Row (){
         Career Opportunities
       </p>
 
-      <h2 className="font-heading mt-3 text-2xl font-bold">
+      <h2 className="font-heading text-black mt-3 text-2xl font-bold">
         Our Top Recruiters
       </h2>
 
-      <p className="mx-auto mt-4 max-w-2xl text-base-content/60">
+      <p className="mx-auto mt-4 max-w-2xl text-black/60">
         Our students have been placed in leading technology companies across India.
       </p>
 

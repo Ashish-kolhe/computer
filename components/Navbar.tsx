@@ -24,7 +24,7 @@ export default function Navbar() {
     />
 
     <div className="leading-none">
-      <h1 className="font-heading text-xl font-bold tracking-tight">
+      <h1 className="font-heading text-black text-xl font-bold tracking-tight">
         ATC
       </h1>
 
@@ -43,35 +43,35 @@ export default function Navbar() {
        
         className="menu menu-md gap-3 dropdown-content bg-white rounded-box z-50 mt-3 w-52 p-2 shadow ">
         <li>
-      <Link href="/about" className="flex items-center gap-2 font-medium  bg-white transition-all duration-200  hover:text-primary">
+      <Link href="/about" className="flex items-center gap-2 font-medium  bg-white transition-all duration-200 text-black  hover:text-primary">
         <Info size={16} />
         About
       </Link>
     </li>
 
     <li>
-      <Link href="/academics" className="flex items-center gap-2 font-medium  bg-white transition-all duration-200  hover:text-primary">
+      <Link href="/academics" className="flex items-center gap-2 font-medium  bg-white transition-all duration-200 text-black   hover:text-primary">
         <GraduationCap size={16} />
         Academics
       </Link>
     </li>
 
     <li>
-      <Link href="/faculty" className="flex items-center gap-2 font-medium  bg-white transition-all duration-200  hover:text-primary">
+      <Link href="/faculty" className="flex items-center gap-2 font-medium  bg-white transition-all duration-200 text-black   hover:text-primary">
         <Users size={16} />
         Faculty
       </Link>
     </li>
 
     <li>
-      <Link href="/gallery" className="flex items-center gap-2 font-medium  bg-white transition-all duration-200  hover:text-primary">
+      <Link href="/gallery" className="flex items-center gap-2 font-medium  bg-white transition-all duration-200 text-black   hover:text-primary">
         <Images size={16} />
         Gallery
       </Link>
     </li>
 
     <li>
-      <Link href="/placements" className="flex items-center gap-2 font-medium bg-white transition-all duration-200  hover:text-primary">
+      <Link href="/placements" className="flex items-center gap-2 font-medium bg-white transition-all duration-200 text-black   hover:text-primary">
         <BriefcaseBusiness size={16} />
         Placements
       </Link>
@@ -86,35 +86,35 @@ export default function Navbar() {
    
 
     <li>
-      <Link href="/about" className="flex items-center gap-2 font-medium  bg-white transition-all duration-200  hover:text-primary">
+      <Link href="/about" className="flex items-center gap-2 font-medium  bg-white transition-all duration-200 text-black   hover:text-primary">
         <Info size={16} />
         About
       </Link>
     </li>
 
     <li>
-      <Link href="/academics" className="flex items-center gap-2 font-medium  bg-white transition-all duration-200  hover:text-primary">
+      <Link href="/academics" className="flex items-center gap-2 font-medium  bg-white transition-all duration-200 text-black  hover:text-primary">
         <GraduationCap size={16} />
         Academics
       </Link>
     </li>
 
     <li>
-      <Link href="/faculty" className="flex items-center gap-2 font-medium  bg-white transition-all duration-200  hover:text-primary">
+      <Link href="/faculty" className="flex items-center gap-2 font-medium  bg-white transition-all duration-200  text-black  hover:text-primary">
         <Users size={16} />
         Faculty
       </Link>
     </li>
 
     <li>
-      <Link href="/gallery" className="flex items-center gap-2 font-medium  bg-white transition-all duration-200  hover:text-primary">
+      <Link href="/gallery" className="flex items-center gap-2 font-medium  bg-white transition-all duration-200 text-black   hover:text-primary">
         <Images size={16} />
         Gallery
       </Link>
     </li>
 
     <li>
-      <Link href="/placements" className="flex items-center gap-2 font-medium bg-white transition-all duration-200  hover:text-primary">
+      <Link href="/placements" className="flex items-center gap-2 font-medium bg-white transition-all duration-200 text-black   hover:text-primary">
         <BriefcaseBusiness size={16} />
         Placements
       </Link>

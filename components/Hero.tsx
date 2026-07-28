@@ -21,7 +21,7 @@ export default function Hero() {
 
         <div className="mb-8 flex flex-wrap gap-3">
 
-          <div className="badge gap-2 rounded-full px-5 py-4">
+          <div className="badge gap-2 rounded-full bg-white text-black px-5 py-4">
             <Image
               src="/root/nba.jpeg"
               alt="NBA"
@@ -31,7 +31,7 @@ export default function Hero() {
             NBA Accredited
           </div>
 
-          <div className="badge gap-2 rounded-full px-5 py-4">
+          <div className="badge gap-2 rounded-full bg-white text-black px-5 py-4">
             <Image
               src="/root/naac.png"
               alt="NAAC"
@@ -51,7 +51,7 @@ export default function Hero() {
 <p className="text-xs uppercase tracking-[0.35em] text-zinc-400">
           Department of
         </p>
-        <h1 className="font-heading mt-6 text-5xl font-black leading-[0.9] tracking-tight lg:text-7xl">
+        <h1 className="font-heading text-black mt-6 text-5xl font-black leading-[0.9] tracking-tight lg:text-7xl">
           Computer
           <br />
           <span className="text-primary">
@@ -67,7 +67,7 @@ export default function Hero() {
         <div className="mt-10">
           <Link
             href="/about"
-            className="btn btn-outline btn-wide"
+            className="btn bg-white text-black hover:bg-white hover:text-primary btn-wide"
           >
             Explore Department
             <ArrowRight size={18} />
