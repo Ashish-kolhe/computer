@@ -109,11 +109,11 @@ export default function Updates() {
                     {item.category}
                   </span>
 
-                  <h4 className="mt-3 text-xl font-semibold leading-snug transition-colors group-hover:text-primary">
+                  <h4 className="mt-3 text-xl text-black font-semibold leading-snug transition-colors group-hover:text-primary">
                     {item.title}
                   </h4>
 
-                  <div className="flex items-center gap-2 text-sm text-base-content/60 mt-3">
+                  <div className="flex items-center gap-2 text-sm text-black/60 mt-3">
                     <CalendarDays size={15} />
                     {item.date}
                   </div>

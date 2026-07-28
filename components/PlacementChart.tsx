@@ -96,6 +96,7 @@ export default function PlacementChart() {
     borderRadius: "16px",
     border: "1px solid hsl(var(--p) / 0.15)",
     boxShadow: "0 10px 30px rgba(0,0,0,.08)",
+    
   }}
 />
 

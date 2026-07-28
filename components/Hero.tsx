@@ -67,7 +67,7 @@ export default function Hero() {
         <div className="mt-10">
           <Link
             href="/about"
-            className="btn bg-white text-black hover:bg-white hover:text-primary btn-wide"
+            className="btn bg-white shadow-none text-black hover:bg-white hover:text-primary btn-wide"
           >
             Explore Department
             <ArrowRight size={18} />
