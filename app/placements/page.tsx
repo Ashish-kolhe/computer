@@ -357,11 +357,11 @@ export default function Page() {
       <section className="overflow-hidden py-20">
 
         <div className="mx-auto max-w-7xl px-6">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">
+          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-black">
             Student Achievements
           </p>
 
-          <h2 className="mt-3 text-4xl font-bold text-slate-900">
+          <h2 className="mt-3 text-4xl font-bold text-primary">
             Our Top Performers
           </h2>
 
@@ -387,7 +387,7 @@ export default function Page() {
 
                   {/* Student Photo */}
 
-                  <div className="mx-auto h-28 w-28 overflow-hidden rounded-full border-4 border-white shadow-lg ring-2 ring-slate-100">
+                  <div className="mx-auto h-28 w-28 overflow-hidden rounded-full  ">
                     <img
                       src={student.image}
                       alt={student.name}
@@ -448,14 +448,14 @@ export default function Page() {
 
         <div className="mx-auto max-w-7xl">
 
-          <div className="rounded-3xl border border-slate-200 bg-white p-8 shadow-sm">
+          <div className="rounded-3xl  bg-white p-8 ">
 
             <div className="mb-8">
-              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">
+              <p className="text-sm font-semibold uppercase tracking-[0.2em] text-black">
                 Placement Overview
               </p>
 
-              <h2 className="mt-2 text-3xl font-bold">
+              <h2 className="mt-2 text-3xl text-primary font-bold">
                 Our Placement Journey
               </h2>
             </div>
@@ -483,7 +483,7 @@ export default function Page() {
               ].map((item) => (
                 <div
                   key={item.title}
-                  className="rounded-2xl bg-slate-50 p-6"
+                  className="rounded-2xl bg-white p-6"
                 >
                   <p className="text-sm text-slate-500">
                     {item.title}
@@ -514,13 +514,12 @@ export default function Page() {
 
           <div className="mb-16">
 
-            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-slate-400">
+            <p className="text-sm font-semibold uppercase tracking-[0.2em] text-black">
               Historical Data
             </p>
 
-            <h2 className="mt-3 text-4xl font-bold text-slate-900">
-              Academic Year-wise
-              <br />
+            <h2 className="mt-3 text-4xl font-bold text-primary">
+          
               Placement Records
             </h2>
 
@@ -541,17 +540,17 @@ export default function Page() {
               <div className="mb-6 flex flex-col justify-between gap-4 md:flex-row md:items-center">
 
                 <div>
-                  <p className="text-sm font-medium text-slate-400">
+                  <p className="text-sm font-medium text-black">
                     Academic Year
                   </p>
 
-                  <h3 className="mt-1 text-3xl font-bold text-slate-900">
+                  <h3 className="mt-1 text-3xl font-bold text-primary">
                     {academicYear.year}
                   </h3>
                 </div>
 
 
-                <div className="rounded-full bg-slate-900 px-5 py-2 text-sm font-semibold text-white">
+                <div className="rounded-full bg-primary px-5 py-2 text-sm font-semibold text-white">
                   {academicYear.placementPercentage}% Placement
                 </div>
 
@@ -587,7 +586,7 @@ export default function Page() {
 
                   <div
                     key={stat.label}
-                    className="rounded-2xl border border-slate-200 bg-slate-50 p-5"
+                    className="rounded-2xl  bg-white p-5"
                   >
                     <p className="text-xs font-medium text-slate-500">
                       {stat.label}
@@ -606,7 +605,7 @@ export default function Page() {
 
               {/* Placement Table */}
 
-              <div className="overflow-hidden rounded-3xl border border-slate-200">
+              <div className="overflow-hidden rounded-3xl ">
 
                 <div className="overflow-x-auto">
 
@@ -651,7 +650,7 @@ export default function Page() {
 
                               <div className="flex items-center gap-3">
 
-                                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-900 text-sm font-bold text-white">
+                                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary text-sm font-bold text-white">
                                   {student.name.charAt(0)}
                                 </div>
 

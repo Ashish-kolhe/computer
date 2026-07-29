@@ -4,7 +4,7 @@ const facultyData = [
         name: "Dr. H.B. Jadhav",
         designation: "HOD & Associate Professor",
         education: "PhD (CSE)",
-        image: "/root/Sir.png",
+        image: "/root/Dean-Photo.jpg",
     },
     {
         id: 2,
@@ -193,7 +193,7 @@ export default function Page() {
                                 <img
                                     src={faculty.image}
                                     alt={faculty.name}
-                                    className="w-52 h-52 rounded-full object-cover border-2"
+                                    className="w-52 h-52 rounded-full object-cover "
                                 />
                             ) : (
                                 <div className="w-52 h-52 rounded-full border-2 border-gray-300 flex items-center justify-center text-gray-400 text-lg">
@@ -207,7 +207,7 @@ export default function Page() {
                             </h2>
 
                             {/* Designation */}
-                            <p className="mt-2 text-lg font-medium text-[#0F4C81]">
+                            <p className="mt-2 text-lg font-medium text-primary">
                                 {faculty.designation}
                             </p>
 

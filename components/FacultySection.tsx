@@ -9,19 +9,19 @@ const faculty = [
     id: 1,
     name: "Dr. H.B.Jadhav",
     designation: "Head of Department",
-    image: "/root/Sir.png",
+    image: "/root/Dean-Photo.jpg",
   },
   {
     id: 2,
     name: "Dr. M.B.Jadhav",
     designation: "Associate Professor",
-    image: "/root/Madam.png",
+    image: "/faculty/JadhavMB.jpg",
   },
   {
     id: 3,
     name: "Mr. S.D.Bhondve",
     designation: "Assistant Professor",
-    image: "/root/Sir.png",
+    image: "/faculty/Bhondave.jpeg",
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const faculty = [
     id: 5,
     name: "Mr. S.S.Medhe",
     designation: "Assistant Professor",
-    image: "/root/Sir.png",
+    image: "/faculty/MEDHE.jpg",
   },
 ];
 
