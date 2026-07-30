@@ -134,10 +134,10 @@ export default function Footer() {
                 <Phone className="h-5 w-5 text-primary" />
 
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+919021814980"
                   className="text-gray-600 hover:text-primary"
                 >
-                  +91 98765 43210
+                  +91  9021814980
                 </a>
 
               </div>
@@ -147,10 +147,10 @@ export default function Footer() {
                 <Mail className="h-5 w-5 text-primary" />
 
                 <a
-                  href="mailto:computer@atc.edu.in"
+                  href="mailto:098hodcomputer@gmail.com"
                   className="text-gray-600 hover:text-primary"
                 >
-                  computer@atc.edu.in
+                  098hodcomputer@gmail.com
                 </a>
 
               </div>

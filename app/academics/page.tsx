@@ -131,7 +131,7 @@ export default function Page() {
 
                                     <div className="flex flex-wrap items-center justify-between gap-3">
 
-                                        <h3 className="text-xl font-semibold">
+                                        <h3 className="text-xl text-black font-semibold">
                                             {item.title}
                                         </h3>
 
@@ -193,7 +193,7 @@ export default function Page() {
 
                                 </div>
 
-                                <h3 className="mt-8 text-2xl font-bold">
+                                <h3 className="mt-8 text-black text-2xl font-bold">
                                     {item.year}
                                 </h3>
 

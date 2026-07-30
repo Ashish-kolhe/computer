@@ -50,6 +50,8 @@ export default function Page() {
 { id: 26, src: "/gallery/26.jpg", category: "farewell" },
 { id: 27, src: "/gallery/27.jpg", category: "farewell" },
 { id: 28, src: "/gallery/28.jpg", category: "farewell" },
+{ id: 29, src: "/gallery/29.jpeg", category: "other" },
+{ id: 30, src: "/gallery/30.jpeg", category: "other" },
   ];
 
   // Automatic counts

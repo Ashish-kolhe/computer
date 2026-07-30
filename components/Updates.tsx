@@ -7,10 +7,10 @@ import { CalendarDays, X } from "lucide-react";
 const updates = [
   {
     id: 1,
-    category: "Hackathon",
-    title: "National Level Hackathon 2026",
-    date: "12 August 2026",
-    image: "/root/image.png",
+    category: "Award",
+    title: "Best College Award",
+    date: "10 February 2026",
+    image: "/root/Awrd.png",
     shortDescription:
       "Over 300 students from various engineering colleges participated in the annual hackathon.",
     description:
@@ -21,7 +21,7 @@ const updates = [
     category: "Industrial Visit",
     title: "Visit to TCS Innovation Center",
     date: "05 August 2026",
-    image: "/root/visit.png",
+    image: "/root/visit.jpeg",
     shortDescription:
       "Students explored enterprise software development and industry practices.",
     description:
