@@ -73,17 +73,17 @@ const timeTables = [
     {
         year: "Second Year (SE)",
         semester: "Semester III & IV",
-        file: "/pdfs/se-timetable.pdf",
+        file: "/root/timetable.pdf",
     },
     {
         year: "Third Year (TE)",
         semester: "Semester V & VI",
-        file: "/pdfs/te-timetable.pdf",
+        file: "/root/timetable.pdf",
     },
     {
         year: "Final Year (BE)",
         semester: "Semester VII & VIII",
-        file: "/pdfs/be-timetable.pdf",
+        file: "/root/timetable.pdf",
     },
 ];
 export default function Page() {

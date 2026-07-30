@@ -9,189 +9,317 @@ import {
 
 export default function Hero() {
   return (
-  <section className="relative overflow-hidden bg-white">
+    <section
+      className="
+    relative
+    isolate
+    w-full
+    aspect-video
+    min-h-[650px]
+    overflow-hidden
+    bg-black
+  "
+    >
 
-    <div className="mx-auto grid min-h-[90vh] max-w-7xl grid-cols-1 items-center gap-12 px-6 py-8 lg:grid-cols-2 lg:gap-20">
 
-      {/* ---------------- LEFT ---------------- */}
+      {/* ================= VIDEO BACKGROUND ================= */}
 
-      <div className="relative lg:-mt-20 z-30 max-w-xl">
+      <video
+        autoPlay
+        muted
+        loop
+        playsInline
+        preload="auto"
+        className="
+      absolute
+      inset-0
+      h-full
+      w-full
+      object-cover
+      object-center
+    "
+      >
+        <source src="/root/3.mp4" type="video/mp4" />
+      </video>
 
-        {/* Accreditation */}
 
-        <div className="mb-8 flex flex-wrap gap-3">
 
-          <div className="badge gap-2 rounded-full bg-white text-black px-5 py-4">
-            <Image
-              src="/root/nba.jpeg"
-              alt="NBA"
-              width={22}
-              height={22}
-            />
-            NBA Accredited
-          </div>
+      {/* VIDEO OVERLAY */}
 
-          <div className="badge gap-2 rounded-full bg-white text-black px-5 py-4">
-            <Image
-              src="/root/naac.png"
-              alt="NAAC"
-              width={22}
-              height={22}
-            />
-            NAAC B++
-          </div>
+      <div
+        className="
+      absolute
+      inset-0
+      bg-gradient-to-r
+      from-black/75
+      via-black/45
+      to-black/20
+    "
+      />
 
-        </div>
 
-        
 
-        <h2 className="mt-2 text-2xl font-semibold text-zinc-800">
-          Adsul's Technical Campus
-        </h2>
-<p className="text-xs uppercase tracking-[0.35em] text-zinc-400">
-          Department of
-        </p>
-        <h1 className="font-heading text-black mt-6 text-5xl font-black leading-[0.9] tracking-tight lg:text-7xl">
-          Computer
-          <br />
-          <span className="text-primary">
-            Engineering
-          </span>
-        </h1>
+      {/* ================= CONTENT ================= */}
 
-        <p className="mt-8 max-w-lg text-md leading-8 text-zinc-500">
-          Building future-ready engineers through innovation,
-          industry collaboration, research and hands-on learning.
-        </p>
+      <div
+        className="
+      relative
+      z-20
+      flex
+      h-full
+      w-full
+      items-center
+    "
+      >
 
-        <div className="mt-10">
-          <Link
-            href="/about"
-            className="btn bg-white shadow-none text-black hover:bg-white hover:text-primary btn-wide"
+        <div
+          className="
+        mx-auto
+        w-full
+        max-w-7xl
+        px-5
+        sm:px-8
+        lg:px-12
+      "
+        >
+
+          <div
+            className="
+          max-w-3xl
+          pt-20
+          lg:pt-0
+        "
           >
-            Explore Department
-            <ArrowRight size={18} />
-          </Link>
+
+
+            {/* ACCREDITATION */}
+
+            <div className="mb-8 flex flex-wrap gap-3">
+
+
+              <div
+                className="
+              flex
+              items-center
+              gap-2
+              rounded-full
+              bg-white/90
+              px-5
+              py-3
+              text-sm
+              font-medium
+              text-black
+              backdrop-blur-md
+            "
+              >
+
+                <Image
+                  src="/root/nba.jpeg"
+                  alt="NBA"
+                  width={22}
+                  height={22}
+                />
+
+                NBA Accredited
+
+              </div>
+
+
+
+              <div
+                className="
+              flex
+              items-center
+              gap-2
+              rounded-full
+              bg-white/90
+              px-5
+              py-3
+              text-sm
+              font-medium
+              text-black
+              backdrop-blur-md
+            "
+              >
+
+                <Image
+                  src="/root/naac.png"
+                  alt="NAAC"
+                  width={22}
+                  height={22}
+                />
+
+                NAAC B++
+
+              </div>
+
+
+            </div>
+
+
+
+
+
+          
+
+
+
+
+            <h2
+              className="
+            mt-3
+            text-2xl
+            font-semibold
+            text-white
+            sm:text-3xl
+          "
+            >
+              Adsul's Technical Campus
+            </h2>
+  <p
+              className="
+            text-xs
+            uppercase
+            tracking-[0.35em]
+            text-white/70
+            pt-3
+          "
+            >
+              Department of
+            </p>
+
+
+
+
+            <h1
+              className="
+            mt-6
+            font-heading
+            text-5xl
+            font-black
+            leading-[0.88]
+            tracking-tight
+            text-white
+
+            sm:text-6xl
+
+            lg:text-8xl
+          "
+            >
+
+              Computer
+
+              <br />
+
+              
+                Engineering
+             
+
+            </h1>
+
+
+
+
+
+            <p
+              className="
+            mt-8
+            max-w-xl
+            text-base
+            leading-7
+            text-white/80
+
+            sm:text-lg
+            sm:leading-8
+          "
+            >
+
+              Building future-ready engineers through innovation,
+              industry collaboration, research and hands-on learning.
+
+            </p>
+
+
+
+
+
+            <div className="mt-10">
+
+              <Link
+                href="/about"
+                className="
+              btn
+              btn-wide
+              bg-white
+              text-black
+              shadow-xl
+              transition-all
+              hover:bg-primary
+              hover:text-white
+            "
+              >
+
+                Explore Department
+
+                <ArrowRight size={18} />
+
+              </Link>
+
+
+            </div>
+
+
+
+          </div>
+
+
         </div>
+
 
       </div>
 
-      {/* ---------------- RIGHT ---------------- */}
 
-      <div className="relative h-[430px] sm:h-[520px] lg:h-[650px]">
 
-        {/* Desktop fade */}
 
-        <div className="absolute -left-28 top-0 z-20 hidden h-full w-56 bg-gradient-to-r from-white via-white/10 to-transparent lg:block" />
 
-        {/* Mobile fade */}
+      {/* ================= WHITE BLENDING FADE ================= */}
 
-        <div className="absolute bottom-0 left-0 z-20 h-24 w-full bg-gradient-to-b from-transparent via-white/40 to-white lg:hidden" />
 
-        <div className="grid h-full grid-cols-4 grid-rows-6 gap-[6px]">
+    {/* ================= WHITE WAVE TRANSITION ================= */}
 
-          {/* 1 */}
+<div className="pointer-events-none absolute bottom-0 left-0 z-30 w-full overflow-hidden leading-[0]">
 
-          <div className="col-span-2 row-span-3 overflow-hidden rounded-lg">
-            <Image
-              src="/root/One.png"
-              alt=""
-              width={700}
-              height={900}
-              className="h-full w-full object-cover transition duration-500 hover:scale-105"
-            />
-          </div>
+  <svg
+    className="
+      relative
+      block
+      h-[120px]
+      w-full
+      sm:h-[160px]
+      lg:h-[220px]
+    "
+    viewBox="0 0 1440 220"
+    preserveAspectRatio="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
 
-          {/* 2 */}
+    <path
+      fill="white"
+      d="
+        M0,120
+        C240,220 480,220 720,150
+        C960,80 1200,80 1440,160
+        L1440,220
+        L0,220
+        Z
+      "
+    />
 
-          <div className=" overflow-hidden rounded-lg">
-            <Image
-              src="/gallery/4.png"
-              alt=""
-              width={400}
-              height={400}
-              className="h-full w-full object-cover transition duration-500 hover:scale-105"
-            />
-          </div>
+  </svg>
 
-          {/* 3 */}
+</div>
 
-          <div className="overflow-hidden rounded-lg">
-            <Image
-              src="/gallery/6.png"
-              alt=""
-              width={400}
-              height={400}
-              className="h-full w-full object-cover transition duration-500 hover:scale-105"
-            />
-          </div>
 
-          {/* 4 */}
-
-          <div className="col-span-2 row-span-2 overflow-hidden rounded-lg">
-            <Image
-              src="/gallery/7.png"
-              alt=""
-              width={700}
-              height={500}
-              className="h-full w-full object-cover transition duration-500 hover:scale-105"
-            />
-          </div>
-
-          {/* 5 */}
-
-          <div className=" col-span-2 overflow-hidden rounded-lg">
-            <Image
-              src="/gallery/8.png"
-              alt=""
-              width={400}
-              height={400}
-              className="h-full w-full object-cover transition duration-500 hover:scale-105"
-            />
-          </div>
-
-          {/* 6 */}
-
-          <div className="row-span-1 col-span-2  overflow-hidden rounded-lg">
-            <Image
-              src="/gallery/15.png"
-              alt=""
-              width={400}
-              height={700}
-              className="h-full w-full object-cover transition duration-500 hover:scale-105"
-            />
-          </div>
-
-          {/* 7 */}
-
-          <div className="col-span-1 overflow-hidden rounded-lg">
-            <Image
-              src="/gallery/5.jpeg"
-              alt=""
-              width={700}
-              height={400}
-              className="h-full w-full object-cover transition duration-500 hover:scale-105"
-            />
-          </div>
-
-          {/* 8 */}
-
-          <div className="row-span-1 col-span-3 overflow-hidden rounded-lg">
-            <Image
-              src="/root/award.jpeg"
-              alt=""
-              width={400}
-              height={400}
-              className="h-full w-full object-cover transition duration-500 hover:scale-105"
-            />
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-);
+    </section>
+  );
 }
