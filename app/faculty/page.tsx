@@ -4,7 +4,7 @@ const facultyData = [
         name: "Dr. H.B. Jadhav",
         designation: "HOD & Associate Professor",
         education: "PhD (CSE)",
-        image: "/root/Dean-Photo.jpg",
+        image: "/root/Dean-photo.jpg",
     },
     {
         id: 2,
