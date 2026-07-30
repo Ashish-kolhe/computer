@@ -13,12 +13,12 @@ import {
 } from "recharts";
 
 const data = [
-  { year: "2019-20", placement: 62 },
-  { year: "2020-21", placement: 68 },
-  { year: "2021-22", placement: 76 },
-  { year: "2022-23", placement: 84 },
-  { year: "2023-24", placement: 91 },
-  { year: "2024-25", placement: 96 },
+  { year: "2019-20", placement: 5 },
+  { year: "2020-21", placement: 8 },
+  { year: "2021-22", placement: 28 },
+  { year: "2022-23", placement: 14 },
+  { year: "2023-24", placement: 21 },
+  { year: "2024-25", placement: 22 },
 ];
 
 export default function PlacementChart() {
