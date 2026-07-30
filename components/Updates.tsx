@@ -10,7 +10,7 @@ const updates = [
     category: "Award",
     title: "Best College Award",
     date: "10 February 2026",
-    image: "/root/Award.jpeg",
+    image: "/root/award.jpeg",
     shortDescription:
       "Over 300 students from various engineering colleges participated in the annual hackathon.",
     description:

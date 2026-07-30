@@ -94,7 +94,7 @@ export default function Hero() {
 
           <div className="col-span-2 row-span-3 overflow-hidden rounded-lg">
             <Image
-              src="/gallery/One.png"
+              src="/root/One.png"
               alt=""
               width={700}
               height={900}
@@ -178,7 +178,7 @@ export default function Hero() {
 
           <div className="row-span-1 col-span-3 overflow-hidden rounded-lg">
             <Image
-              src="/gallery/1.png"
+              src="/root/award.jpeg"
               alt=""
               width={400}
               height={400}
