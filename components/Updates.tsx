@@ -10,7 +10,7 @@ const updates = [
     category: "Award",
     title: "Best College Award",
     date: "10 February 2026",
-    image: "/root/Awrd.png",
+    image: "/root/Award.jpeg",
     shortDescription:
       "Over 300 students from various engineering colleges participated in the annual hackathon.",
     description:
@@ -19,36 +19,15 @@ const updates = [
   {
     id: 2,
     category: "Industrial Visit",
-    title: "Visit to TCS Innovation Center",
-    date: "05 August 2026",
+    title: "Visit to ........",
+    date: "23 August 2023",
     image: "/root/visit.jpeg",
     shortDescription:
       "Students explored enterprise software development and industry practices.",
     description:
       "Third-year Computer Engineering students visited the TCS Innovation Center where they interacted with industry professionals, experienced real-world software development workflows, and attended technical sessions on cloud technologies, DevOps, and agile development.",
   },
-  {
-    id: 3,
-    category: "Expert Talk",
-    title: "Seminar on Artificial Intelligence",
-    date: "28 July 2026",
-    image: "/root/seminar.png",
-    shortDescription:
-      "Industry experts discussed the future of AI and career opportunities.",
-    description:
-      "The department organized an expert lecture on Artificial Intelligence and Machine Learning focusing on emerging technologies, research opportunities, higher education, and industry expectations. Students actively participated in the interactive Q&A session.",
-  },
-  {
-    id: 4,
-    category: "Workshop",
-    title: "Full Stack Development Workshop",
-    date: "15 July 2026",
-    image: "/root/Workshop.png",
-    shortDescription:
-      "Hands-on workshop covering React, Next.js and modern web development.",
-    description:
-      "Students built a complete full-stack application during this two-day workshop using React, Next.js, Tailwind CSS, and Supabase while learning industry-standard development practices.",
-  },
+  
 ];
 
 export default function Updates() {

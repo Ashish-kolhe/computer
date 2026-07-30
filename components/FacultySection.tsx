@@ -9,7 +9,7 @@ const faculty = [
     id: 1,
     name: "Dr. H.B.Jadhav",
     designation: "Head of Department",
-    image: "/root/Dean-Photo.jpg",
+    image: "/root/Dean-photo.jpg",
   },
   {
     id: 2,

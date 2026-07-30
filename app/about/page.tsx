@@ -28,12 +28,12 @@ export default function Page() {
                             {/* Statistics */}
                             <div className="mt-10 grid grid-cols-3 gap-6 sm:grid-cols-3">
                                 <div className="rounded-xl bg-white p-6 text-center ">
-                                    <h2 className="text-3xl font-bold text-purple-700">1500+</h2>
+                                    <h2 className="text-3xl font-bold text-purple-700">700+</h2>
                                     <p className="mt-2 text-gray-600">Students</p>
                                 </div>
 
                                 <div className="rounded-xl bg-white p-6 text-center ">
-                                    <h2 className="text-3xl font-bold text-purple-700">70+</h2>
+                                    <h2 className="text-3xl font-bold text-purple-700">30+</h2>
                                     <p className="mt-2 text-gray-600">Faculty</p>
                                 </div>
 

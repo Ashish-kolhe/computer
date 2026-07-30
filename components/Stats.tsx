@@ -24,7 +24,7 @@ export default function Stats (){
     </div>
 
     <h3 className="text-2xl text-black font-bold tracking-tight">
-      1,500+
+      700+
     </h3>
 
     <p className="mt-1 text-xs text-black/60">
@@ -38,7 +38,7 @@ export default function Stats (){
     </div>
 
     <h3 className="text-2xl font-bold text-black tracking-tight">
-      70+
+      30+
     </h3>
 
     <p className="mt-1 text-xs text-black/60">

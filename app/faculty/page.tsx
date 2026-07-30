@@ -46,7 +46,7 @@ const facultyData = [
         name: "Mr. K.M. Borude",
         designation: "Assistant Professor",
         education: "M.Tech, PhD Appear",
-        image: "/faculty/Borude.jpg",
+        image: "/faculty/Borude.JPG",
     },
     {
         id: 8,

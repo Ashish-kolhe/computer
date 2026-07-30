@@ -21,22 +21,22 @@ export default function Footer() {
   const socials = [
     {
       name: "Facebook",
-      href: "#",
+      href: "https://www.facebook.com/Adsulstechnicalcampus/",
       icon: FaFacebookF,
     },
     {
       name: "Instagram",
-      href: "#",
+      href: "https://www.instagram.com/atc_computer_engg/",
       icon: FaInstagram,
     },
     {
       name: "YouTube",
-      href: "#",
+      href: "https://www.youtube.com/@adsulstechnicalcampusahmed7777",
       icon: FaYoutube,
     },
     {
       name: "LinkedIn",
-      href: "#",
+      href: "https://in.linkedin.com/company/adsul-s-technical-campus",
       icon: FaLinkedinIn,
     },
   ];
