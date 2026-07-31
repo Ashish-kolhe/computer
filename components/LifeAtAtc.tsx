@@ -7,6 +7,11 @@ const images = [
   "/root/image4.jpeg",
   "/root/image5.jpeg",
   "/root/image6.jpg",
+  "/gallery/6.png",
+  "/gallery/29.jpeg",
+  "/gallery/19.png",
+  "/gallery/15.png",
+  "/gallery/4.png",
   
 ];
 

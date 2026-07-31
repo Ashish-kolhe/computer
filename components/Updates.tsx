@@ -18,15 +18,16 @@ const updates = [
   },
   {
     id: 2,
-    category: "Industrial Visit",
-    title: "Visit to ........",
-    date: "23 August 2023",
-    image: "/root/visit.jpeg",
+    category: "Hackathon",
+    title: "ATC-SIH Internal Hackathon",
+    date: "23 September 2025",
+    image: "/root/sih.jpg",
     shortDescription:
-      "Students explored enterprise software development and industry practices.",
+      "nternal Hackathon organized by the Computer Department for Smart India Hackathon (SIH) 2025 on 23 September 2025.",
     description:
-      "Third-year Computer Engineering students visited the TCS Innovation Center where they interacted with industry professionals, experienced real-world software development workflows, and attended technical sessions on cloud technologies, DevOps, and agile development.",
+      "The event brought together student teams to present innovative solutions to real-world problems as part of the institute-level selection process for Smart India Hackathon (SIH) 2025.",
   },
+  
   
 ];
 

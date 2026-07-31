@@ -14,10 +14,41 @@ const sora = Sora({
 });
 
 export const metadata: Metadata = {
-  title: "ATC Computer",
-  description: "Adsul's Technical Campus , Computer Department",
-};
+  title: {
+    default: "Computer Department | Adsul's Technical Campus",
+    template: "%s | Computer Department",
+  },
 
+  description:
+    "Official website of the Computer Department, Adsul's Technical Campus.",
+
+  keywords: [
+    "Computer Department",
+    "Adsul's Technical Campus",
+    "ATC",
+    "Computer Engineering",
+    "Engineering College",
+    "Adsul college",
+    "college chas",
+    "Adsul college chas",
+    "Computer Engineering college Nagar",
+    "College",
+    
+  ],
+
+  authors: [
+    {
+      name: "Computer Department, Adsul's Technical Campus",
+    },
+  ],
+
+  creator: "Krypton",
+
+ 
+  metadataBase: new URL("https://atclive.vercel.app"),
+
+  
+};
 export default function RootLayout({
   children,
 }: Readonly<{

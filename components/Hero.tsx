@@ -50,10 +50,10 @@ export default function Hero() {
         className="
       absolute
       inset-0
-      bg-gradient-to-r
-      from-black/75
-      via-black/45
-      to-black/20
+      bg-gradient-to-br
+      from-black
+      via-black/75
+      to-black/35
     "
       />
 
@@ -103,7 +103,7 @@ export default function Hero() {
               items-center
               gap-2
               rounded-full
-              bg-white/90
+              bg-white
               px-5
               py-3
               text-sm
@@ -132,7 +132,7 @@ export default function Hero() {
               items-center
               gap-2
               rounded-full
-              bg-white/90
+              bg-white
               px-5
               py-3
               text-sm
@@ -243,7 +243,7 @@ export default function Hero() {
 
 
 
-            <div className="mt-10">
+            <div className="mt-6">
 
               <Link
                 href="/about"
@@ -293,10 +293,10 @@ export default function Hero() {
     className="
       relative
       block
-      h-[120px]
+      h-[80px]
       w-full
-      sm:h-[160px]
-      lg:h-[220px]
+      sm:h-[120px]
+      lg:h-[150px]
     "
     viewBox="0 0 1440 220"
     preserveAspectRatio="none"
@@ -304,16 +304,16 @@ export default function Hero() {
   >
 
     <path
-      fill="white"
-      d="
-        M0,120
-        C240,220 480,220 720,150
-        C960,80 1200,80 1440,160
-        L1440,220
-        L0,220
-        Z
-      "
-    />
+  fill="white"
+  d="
+    M0,140
+    C240,180 480,180 720,150
+    C960,120 1200,120 1440,160
+    L1440,220
+    L0,220
+    Z
+  "
+/>
 
   </svg>
 
