@@ -19,7 +19,7 @@ import {
 export default function Navbar() {
   const pathname = usePathname();
   return (
-    <div className='relative sticky top-0 z-70'>
+    <div className='relative sticky top-0 z-55'>
       <div className="navbar bg-white px-3 py-2">
         <div className="navbar-start">
   <Link href="/" className="flex items-center gap-3">
@@ -203,7 +203,7 @@ export default function Navbar() {
   
 </div>
  <svg
-  className="absolute z-71 left-0 top-full w-full -mt-2 h-6 scale-y-[-1]"
+  className="absolute z-56 left-0 top-full w-full -mt-2 h-6 scale-y-[-1]"
   viewBox="0 0 1440 80"
   preserveAspectRatio="none"
 >

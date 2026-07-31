@@ -58,7 +58,7 @@ export default function Page() {
 
             <div className="flex items-center gap-3">
               <GraduationCap className="text-primary" />
-              <h2 className="text-2xl font-bold">
+              <h2 className="text-2xl text-black font-bold">
                 Eligibility
               </h2>
             </div>
@@ -87,7 +87,7 @@ export default function Page() {
 
             <div className="flex items-center gap-3">
               <FileText className="text-primary" />
-              <h2 className="text-2xl font-bold">
+              <h2 className="text-2xl text-black font-bold">
                 Required Documents
               </h2>
             </div>
@@ -185,7 +185,7 @@ export default function Page() {
 
               <div>
 
-                <h4 className="font-semibold">
+                <h4 className=" text-balck font-semibold">
                   Phone
                 </h4>
 
@@ -206,7 +206,7 @@ export default function Page() {
 
               <div>
 
-                <h4 className="font-semibold">
+                <h4 className=" text-black font-semibold">
                   Email
                 </h4>
 

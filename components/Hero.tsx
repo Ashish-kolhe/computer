@@ -296,7 +296,8 @@ export default function Hero() {
       h-[80px]
       w-full
       sm:h-[120px]
-      lg:h-[150px]
+      lg:h-[150px] 
+      scale-x-[-1]
     "
     viewBox="0 0 1440 220"
     preserveAspectRatio="none"
